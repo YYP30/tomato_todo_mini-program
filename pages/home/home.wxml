@@ -3,7 +3,7 @@
     <view class="item" 
           wx:for="{{lists}}" 
           wx:for-index="index" 
-          wx:key="{{item.id}}"   
+          wx:key="*this"   
           wx:if="{{!item.completed}}">
       <view class="select {{item.completed && 'active'}}" 
             bindtap='destroyTodo'

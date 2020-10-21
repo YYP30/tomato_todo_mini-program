@@ -17,7 +17,6 @@ function dateFormat(date, format){
     }
     return v
   })
-
   return format
 }
 

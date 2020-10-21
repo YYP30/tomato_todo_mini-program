@@ -4,8 +4,7 @@
     "pages/binding/binding",
     "pages/login/login",
     "pages/me/me",
-    "pages/tomato/tomato",
-    "pages/test/test"
+    "pages/tomato/tomato"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -32,5 +31,6 @@
         "selectedIconPath": "images/me-active.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
